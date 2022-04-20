@@ -10,7 +10,7 @@ public class TestMethod {
 
     @Test
     public void useSelenium() {
-        System.setProperty("webdriver.chrome", "driver./Drivers/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "./Drivers/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com/");
     }
