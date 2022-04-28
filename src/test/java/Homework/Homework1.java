@@ -1,12 +1,10 @@
-package Homework1;
+package Homework;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-import java.sql.Driver;
-
-public class TestMethod {
+public class Homework1 {
 
     @Test
     public void useSelenium() {
